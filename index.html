@@ -6,31 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mastrobau</title>
     <link rel="stylesheet" href="./src/output.css">
-    <link rel="shortcut icon" href="./pictures/house-logo-outline.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/pictures/house-logo-outline.png" type="image/x-icon">
 </head>
 
 <body>
     <header class="max-w-full h-24 flex justify-center-safe">
         <div alt="nav" class="bg-stone-300 w-full h-full flex justify-center-safe">
             <div alt="logo" class="size-24"><img src="/pictures/svg/house-logo-outline.svg"></div>
-            <button class="bg-amber-300 hover:bg-amber-400 focus:bg-amber-500 active:bg-amber-500">Press me</button>
         </div>
     </header>
     <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7">
-        <button
-            class="bg-[url(/pictures/pexels-ron-lach-8817851.jpg)] bg-contain opacity-70 hover:bg-stone-400 w-full h-64 flex justify-center-safe">
-            <!-- <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg" class="size-25 m-auto"> -->
-        </button>
-        <button class="bg-stone-500 w-full h-64 flex justify-center-safe">
+        <a class="bg-[url(/pictures/services.png)] bg-contain opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400"
+            href="/pages/services/services.html">
+            <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg" class="size-25 m-auto hover:opacity-100">
+        </a>
+        <a
+            class="bg-[url(/pictures/jobs.png)] bg-no-repeat bg-cover opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400">
             <img src="/pictures/svg/customhouse.svg" class="size-25 m-auto">
-        </button>
-        <button class="bg-stone-500 hover:bg-stone-600 w-full h-64 flex justify-center-safe">
+        </a>
+        <a
+            class="bg-[url(/pictures/AI_man.png)] bg-no-repeat bg-cover opacity-80 hover:opacity-120 w-full h-64 flex justify-center-safe transition duration-400">
             <img src="/pictures/svg/custom.person.fill.svg" class="size-25 m-auto">
-        </button>
+        </a>
     </div>
-    <footer class="max-w-full h-24 flex justify-center-safe">
-        <div alt="footer" class="bg-stone-300 w-full h-full"></div>
+    <footer class="max-w-full h-24">
+        <div alt="footer" class="bg-stone-300 w-full h-full">
+            <div alt="unordered-list" class="max-w-full max-h-full flex justify-center align-middle">
+                <ul class="my-3">
+                    <li>Impressum</li>
+                    <li>Rechtliches</li>
+                    <li>Weiteres</li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
+<script src="./js/scripts.js"></script>
 
 </html>
