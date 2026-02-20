@@ -1,8 +1,10 @@
 # node Files @
 node_modules/
-packages.json
-package-lock.json
+node_modules/.package-lock.json
+node_modules/@parcel/watcher-darwin-arm64/package.json
+node_modules/@tailwindcss/oxide-darwin-arm64/tailwindcss-oxide.darwin-arm64.node
 ##############
+
 
 # .git Folder  #
 .git/
@@ -10,4 +12,5 @@ package-lock.json
 
 # OS generated Files  #
 .DS-Store
+.DS_Store
 #############
