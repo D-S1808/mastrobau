@@ -10,9 +10,16 @@
 </head>
 
 <body>
-    <a class="bg-amber-300 hover:bg-amber-400 focus:bg-amber-500 active:bg-amber-500"
-        href="/index.html">home from jobs</a>
+    <a class="bg-amber-300 hover:bg-amber-400 focus:bg-amber-500 active:bg-amber-500" href="/index.html">home from
+        jobs</a>
+    <div class="md:container md:mx-auto px-40 ng-gray-200">
+        <div id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
 
+        </div>
+        <div id="lightbox" class="fixed inset-0 bg-black/75 items-center justify-center hidden">
+            <img id="lightbox-img" class="max-w-3xl max-h-full rounded-lg shadow-lg">
+        </div>
+    </div>
 </body>
-
+<script src="/js/scripts.js"></script>
 </html>
