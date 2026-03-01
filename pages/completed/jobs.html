@@ -6,20 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mastrobau</title>
     <link rel="stylesheet" href="/src/output.css">
-    <link rel="shortcut icon" href="/pictures/house-logo-outline.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/pictures/svg/favicon.svg" type="image/x-icon">
 </head>
 
 <body>
-    <a class="bg-amber-300 hover:bg-amber-400 focus:bg-amber-500 active:bg-amber-500" href="/index.html">home from
-        jobs</a>
-    <div class="md:container md:mx-auto px-40 ng-gray-200">
-        <div id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <header class="max-w-full h-24 flex justify-center-safe">
+        <div alt="nav" class="bg-stone-300 w-full h-full flex justify-center-safe">
+            <a href="/index.html">
+                <div alt="logo" class="size-40 mt-3.5"><img src="/pictures/svg/logo.svg">
+                </div>
+            </a>
+        </div>
+    </header>
+    <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
+        <a class="bg-[url(/pictures/services.png)] bg-contain group opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400"
+            href="/pages/services/services.html">
+            <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
+                class="size-25 m-auto opacity-100 group-hover:opacity-0 transition duration-400">
+            <!-- <div>
+                <p class="opacity-0 hover:opacity-100">Hello</p>
+            </div> -->
+        </a>
 
+        <div class="w-full box-border px-0 bg-gray-200">
+            <div id="gallery" class="grid grid-cols-2 gap-2">
+            </div>
+            <div id="lightbox" class="fixed inset-0 z-50 hidden content-center bg-black/75">
+                <img id="lightbox-img" class="max-w-3xl max-h-full rounded-lg shadow-lg m-auto">
+            </div>
         </div>
-        <div id="lightbox" class="fixed inset-0 bg-black/75 items-center justify-center hidden">
-            <img id="lightbox-img" class="max-w-3xl max-h-full rounded-lg shadow-lg">
-        </div>
+
+        <a class="bg-[url(/pictures/AI_man.png)] group bg-no-repeat bg-cover opacity-80 hover:opacity-120 w-full h-64 flex justify-center-safe transition duration-400"
+            href="/pages/myself/myself.html">
+            <img src="/pictures/svg/custom.person.fill.svg"
+                class="size-25 opacity-100 group-hover:opacity-0 m-auto transition duration-400">
+        </a>
+
     </div>
+    <footer class="max-w-full h-24">
+        <div alt="footer" class="bg-stone-300 w-full h-full">
+            <div alt="unordered-list" class="max-w-full max-h-full flex justify-center align-middle">
+                <ul class="my-3">
+                    <li>Impressum</li>
+                    <li>Rechtliches</li>
+                    <li>Weiteres</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="/js/scripts.js"></script>
+
 </html>
