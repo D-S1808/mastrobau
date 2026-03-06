@@ -19,29 +19,51 @@
         </div>
     </header>
     <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
-        <a class="bg-[url(/pictures/services.png)] bg-contain group opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400"
+        <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
             href="/pages/services/services.html">
-            <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
-                class="size-25 m-auto opacity-100 group-hover:opacity-0 transition duration-400">
-            <!-- <div>
-                <p class="opacity-0 hover:opacity-100">Hello</p>
-            </div> -->
+            <div class="m-auto flex flex-col items-center gap-2">
+                <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
+                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden">Servizi</p>
+            </div>
+            <span
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                Servizi
+            </span>
         </a>
-
-        <div class="w-full box-border px-0 bg-gray-200">
-            <div id="gallery" class="grid grid-cols-2 gap-2">
+        <div class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen box-border px-4 my-5">
+            <div class="text-black break-normal hyphens-auto text-justify lg:w-5xl mx-auto" lang="it">
+                <h1 class="text-4xl text-center mb-3">Lavori svolti</h1>
+                <p class="mb-5">
+                    Qui si può trovare una selezione di lavori già realizzati da Mastrobau Arcieri: interventi concreti,
+                    curati nei
+                    dettagli e pensati per valorizzare ogni ambiente. Ogni progetto viene eseguito con attenzione alle
+                    finiture, pulizia del lavoro e rispetto delle caratteristiche dell’immobile, soprattutto quando si
+                    tratta di edifici esistenti o situazioni che richiedono precisione. <br><br>
+                    La nostra forza sta nelle rifiniture di alta qualità e negli interventi dove conta davvero la mano
+                    esperta: restauri, lavorazioni su immobili d’epoca, soluzioni in stucco veneziano, posa e
+                    dettagli di finitura, oltre a lavori di completamento e rinnovo degli spazi. L’obiettivo è sempre lo
+                    stesso: consegnare un risultato solido, ordinato e visibilmente ben fatto.
+                </p>
+            </div>
+            <div id="gallery" class="mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 max-w-6xl">
             </div>
             <div id="lightbox" class="fixed inset-0 z-50 hidden content-center bg-black/75">
                 <img id="lightbox-img" class="max-w-3xl max-h-full rounded-lg shadow-lg m-auto">
             </div>
         </div>
-
-        <a class="bg-[url(/pictures/AI_man.png)] group bg-no-repeat bg-cover opacity-80 hover:opacity-120 w-full h-64 flex justify-center-safe transition duration-400"
+        <a class="bg-[url(/pictures/AI_man.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
             href="/pages/myself/myself.html">
-            <img src="/pictures/svg/custom.person.fill.svg"
-                class="size-25 opacity-100 group-hover:opacity-0 m-auto transition duration-400">
+            <div class="m-auto flex flex-col items-center gap-2">
+                <img src="/pictures/svg/custom.person.fill.svg"
+                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden">La mia persona</p>
+            </div>
+            <span
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                La mia persona
+            </span>
         </a>
-
     </div>
     <footer class="max-w-full h-24">
         <div alt="footer" class="bg-stone-300 w-full h-full">

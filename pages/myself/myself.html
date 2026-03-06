@@ -19,18 +19,29 @@
         </div>
     </header>
     <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
-        <a class="bg-[url(/pictures/services.png)] bg-contain group opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400"
+        <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
             href="/pages/services/services.html">
-            <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
-                class="size-25 m-auto opacity-100 group-hover:opacity-0 transition duration-400">
-            <div>
-                <p class="opacity-0 hover:opacity-100">Hello</p>
+            <div class="m-auto flex flex-col items-center gap-2">
+                <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
+                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden">Servizi</p>
             </div>
+            <span
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                Servizi
+            </span>
         </a>
-        <a class="bg-[url(/pictures/jobs.png)] group bg-no-repeat bg-cover opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe transition duration-400"
+        <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
             href="/pages/completed/jobs.html">
-            <img src="/pictures/svg/customhouse.svg"
-                class="size-25 m-auto opacity-100 group-hover:opacity-0 transition duration-400">
+            <div class="m-auto flex flex-col items-center gap-2">
+                <img src="/pictures/svg/customhouse.svg"
+                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden">Lavori svolti</p>
+            </div>
+            <span
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                Lavori svolti
+            </span>
         </a>
     </div>
     <div class="flex flex-col items-center max-w-full h-full m-3 break-normal hyphens-auto text-justify" lang="de">

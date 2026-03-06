@@ -3,9 +3,27 @@ function test() {
 };
 
 const images = [
-    "/pictures/jobs.png",
-    "/pictures/AI_man.png",
-    "/pictures/AI_man.png"
+    "/pictures/jobs/0.jpeg",
+    "/pictures/jobs/1.jpeg",
+    "/pictures/jobs/2.jpeg",
+    "/pictures/jobs/3.jpeg",
+    "/pictures/jobs/4.jpeg",
+    "/pictures/jobs/5.jpeg",
+    "/pictures/jobs/6.jpeg",
+    "/pictures/jobs/7.jpeg",
+    "/pictures/jobs/8.jpeg",
+    "/pictures/jobs/9.jpeg",
+    "/pictures/jobs/10.jpeg",
+    "/pictures/jobs/11.jpeg",
+    "/pictures/jobs/12.jpeg",
+    "/pictures/jobs/13.jpeg",
+    "/pictures/jobs/14.jpeg",
+    "/pictures/jobs/15.jpeg",
+    "/pictures/jobs/16.jpeg",
+    "/pictures/jobs/17.jpeg",
+    "/pictures/jobs/18.jpeg",
+    "/pictures/jobs/19.jpeg",
+
 
 ];
 
