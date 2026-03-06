@@ -49,3 +49,23 @@ gallery.addEventListener("click", (e) => {
 lightbox.addEventListener("click", () => {
     lightbox.classList.add("hidden");
 });
+
+async function loadLanguage(lang) {
+    const response = await fetch(`/lang/${lang}.json`);
+    const translations = await response.json();
+
+    document.querySelectorAll("[data-i18n]").forEach(element => {
+        const key = element.getAttribute("data-i18n");
+        if (translations[key]) {
+            element.textContent = translations[key];
+        }
+    });
+
+    localStorage.setItem("language", lang);
+}
+
+document.getElementById("lang-it").addEventListener("click", () => loadLanguage("it"));
+document.getElementById("lang-de").addEventListener("click", () => loadLanguage("de"));
+
+const savedLanguage = localStorage.getItem("language") || "it";
+loadLanguage(savedLanguage);
