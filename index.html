@@ -10,12 +10,15 @@
 </head>
 
 <body>
-    <header class="max-w-full h-24 flex justify-center-safe">
-        <div alt="nav" class="bg-stone-300 w-full h-full flex justify-center-safe">
-            <a href="/index.html">
-                <div alt="logo" class="size-40 mt-3.5"><img src="/pictures/svg/logo2.svg">
-                </div>
+    <header class="max-w-full h-24 flex">
+        <div alt="nav" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
+            <a href="/index.html" class="absolute left-1/2 -translate-x-1/2">
+                <div alt="logo" class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg"></div>
             </a>
+            <div class="absolute md:right-4/12 right-1/12 inset-y-0 flex content-center">
+                <button class="mx-2 hover:cursor-pointer" id="lang-de" onclick="test()">DE</button>
+                <button class="mx-2" id="lang-it">IT</button>
+            </div>
         </div>
     </header>
     <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
@@ -27,7 +30,8 @@
                 <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
             </div>
             <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400" data-i18n="box.services">
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                data-i18n="box.services">
                 Servizi
             </span>
         </a>
@@ -39,7 +43,8 @@
                 <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori svolti</p>
             </div>
             <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400" data-i18n="box.jobs">
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                data-i18n="box.jobs">
                 Lavori svolti
             </span>
         </a>
@@ -48,10 +53,12 @@
             <div class="m-auto flex flex-col items-center gap-2">
                 <img src="/pictures/svg/custom.person.fill.svg"
                     class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">La mia persona</p>
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">La mia persona
+                </p>
             </div>
             <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400" data-i18n="box.myself">
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                data-i18n="box.myself">
                 La mia persona
             </span>
         </a>
@@ -60,12 +67,13 @@
         <div alt="footer" class="bg-stone-300 w-full h-full">
             <div alt="unordered-list" class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
                 <ul class="my-5">
-                    <a href="/pages/legal/impressum.html">Informazioni legali</a> <br>
-                    <a href="/pages/legal/DSG.html">Sicurezza dei dati</a>
+                    <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a> <br>
+                    <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Sicurezza dei dati</a>
                 </ul>
             </div>
         </div>
     </footer>
 </body>
+<script src="/js/scripts.js"></script>
 
 </html>

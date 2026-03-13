@@ -51,7 +51,7 @@ lightbox.addEventListener("click", () => {
 });
 
 async function loadLanguage(lang) {
-    const response = await fetch(`/lang/${lang}.json`);
+    const response = await fetch(`/json/${lang}.json`);
     const translations = await response.json();
 
     document.querySelectorAll("[data-i18n]").forEach(element => {
@@ -64,8 +64,8 @@ async function loadLanguage(lang) {
     localStorage.setItem("language", lang);
 }
 
-document.getElementById("lang-it").addEventListener("click", () => loadLanguage("it"));
-document.getElementById("lang-de").addEventListener("click", () => loadLanguage("de"));
+document.getElementById("it").addEventListener("click", () => loadLanguage("it"));
+document.getElementById("de").addEventListener("click", () => loadLanguage("de"));
 
-const savedLanguage = localStorage.getItem("language") || "it";
+const savedLanguage = localStorage.getItem("language") || "de";
 loadLanguage(savedLanguage);
