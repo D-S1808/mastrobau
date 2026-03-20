@@ -1,25 +1,20 @@
 {
     "box.services": "Dienstleistungen",
-    "box.jobs"    : "Erledigte Arbeiten",
-    "box.myself"  : "Über mich",
-    "a.legal"     : "Rechtliches",
-    "a.dsg"       : "Datenschutz",
-
-    "h.offers"    : "Unseres Angebot",
-    "p.offers"    : "Bei Mastrobau haben Sie einen einzigen Ansprechpartner für verschiedeneBauarbeiten, wobei besonderer Wert auf die Qualität der Ausführung und auf Details gelegt wird. Wir kümmern uns sowohl um
-                bauliche als auch um Ausbaumaßnahmen, von praktischen und funktionalen Arbeiten bis hin zu
-                anspruchsvolleren und dekorativen Lösungen.
-                Wir arbeiten an neuen Räumen und an bestehenden Gebäuden, auch wenn dabei besondere Präzision und die
-                Wahrung der ursprünglichen Merkmale gefragt sind. Ob es sich um eine kleine Renovierung oder ein umfassenderes
-                Projekt handelt, wir helfen dir dabei, deine Ideen in ein solides, sauberes und gut ausgeführtes Ergebnis umzusetzen.",
-    "h.services"  : "Unsere Baudienstleistungen",
-    "p.services"  : "",
-    "ul.count"    : "",
-    "p.s-ending"  : "",
-
-    "p.jobs"      : "",
-
-    "h.myself"    : "",
-    "p.myself"    : ""
-
+    "box.jobs": "Erledigte Arbeiten",
+    "box.myself": "Über mich",
+    "a.legal": "Rechtliches",
+    "a.dsg": "Datenschutz",
+    "h.offers": "Unseres Angebot",
+    "p.offers": "Bei Mastrobau haben Sie einen einzigen Ansprechpartner für verschiedeneBauarbeiten, wobei besonderer Wert auf die Qualität der Ausführung und auf Details gelegt wird. Wir kümmern uns sowohl um bauliche als auch um Ausbaumaßnahmen, von praktischen und funktionalen Arbeiten bis hin zu anspruchsvolleren und dekorativen Lösungen. ir arbeiten an neuen Räumen und an bestehenden Gebäuden, auch wenn dabei besondere Präzision und die Wahrung der ursprünglichen Merkmale gefragt sind. Ob es sich um eine kleine Renovierung oder ein umfassenderes Projekt handelt, wir helfen dir dabei, deine Ideen in ein solides, sauberes und gut ausgeführtes Ergebnis umzusetzen.",
+    "h.services": "Unsere Baudienstleistungen",
+    "p.services": "Einige der von uns angebotenen Dienstleistungen sind nachfolgend aufgeführt:",
+    "ul.0": "Gipserarbeiten",
+    "ul.1": "Mahlerarbeiten",
+    "ul.2": "Plattenleger",
+    "ul.3": "Kundenmaurer",
+    "ul.4": "Altbauten",
+    "p.s-ending": "Neben den genannten Dienstleistungen bietet Mastrobau auf Anfrage auch weitere Leistungen an, die auf die Bedürfnisse des Kunden und die Art des Projekts zugeschnitten sind. Kontaktieren Sie uns für eine Beratung: Wir klären gemeinsam die Machbarkeit, die Vorgehensweise und erstellen ein individuelles Angebot.",
+    "p.jobs": "Hier finden Sie eine Auswahl bereits von Mastrobau realisierter Projekte: konkrete Arbeiten, die mit Liebe zum Detail ausgeführt und darauf ausgelegt sind, jeden Raum aufzuwerten. Jedes Projekt wird mit Sorgfalt bei der Ausführung, sauberen Arbeitsabläufen und unter Berücksichtigung der Eigenschaften des Gebäudes durchgeführt, insbesondere bei Bestandsgebäuden oder Situationen, die Präzision erfordern. Unsere Stärke liegt in hochwertigen Oberflächen und Arbeiten, bei denen es wirklich auf die Hand eines Experten ankommt: Restaurierungen, Arbeiten an historischen Gebäuden, Lösungen mit venezianischem Stuck, Verlegung und Details der Endbearbeitung sowie Fertigstellungs- und Renovierungsarbeiten. Das Ziel ist immer dasselbe: ein solides, ordentliches und sichtbar gut ausgeführtes Ergebnis zu liefern.",
+    "h.myself": "Der Mann hinter dem Werk",
+    "p.myself": "Giovanni ist Inhaber von Mastrobau und arbeitet jeden Tag mit einer pragmatischen, präzisen und qualitätsorientierten Herangehensweise. Im Laufe der Zeit hat er sich fundierte Erfahrungen in der Baubranche angeeignet und dabei seine technischen Fähigkeiten sowie seine Liebe zum Detail verfeinert, insbesondere bei der Endbearbeitung und bei Arbeiten, die Sorgfalt und Fingerspitzengefühl erfordern. Für Giovanni ist dieser Beruf nicht nur „einen Job zu erledigen“, sondern Räume und Ideen in reale Ergebnisse zu verwandeln: ordentlich, gut ausgeführt und langlebig. Seine Leidenschaft entspringt der Zufriedenheit, ein Projekt Schritt für Schritt Gestalt annehmen zu sehen, sowie der direkten Beziehung zum Kunden, die auf Zuhören, Klarheit und Verantwortung basiert. Jedes Projekt wird persönlich betreut, mit dem Ziel, ein Ergebnis zu liefern, das die Erwartungen wirklich widerspiegelt."
 }
