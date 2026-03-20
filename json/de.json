@@ -1,17 +1,25 @@
 {
-    "box.services": "Willkommen",
-    "box.jons"    : "Erledigte Arbeiten",
-    "box.mysel"   : "Über mich",
+    "box.services": "Dienstleistungen",
+    "box.jobs"    : "Erledigte Arbeiten",
+    "box.myself"  : "Über mich",
     "a.legal"     : "Rechtliches",
     "a.dsg"       : "Datenschutz",
 
     "h.offers"    : "Unseres Angebot",
-    "p.offers"    : "",
+    "p.offers"    : "Bei Mastrobau haben Sie einen einzigen Ansprechpartner für verschiedeneBauarbeiten, wobei besonderer Wert auf die Qualität der Ausführung und auf Details gelegt wird. Wir kümmern uns sowohl um
+                bauliche als auch um Ausbaumaßnahmen, von praktischen und funktionalen Arbeiten bis hin zu
+                anspruchsvolleren und dekorativen Lösungen.
+                Wir arbeiten an neuen Räumen und an bestehenden Gebäuden, auch wenn dabei besondere Präzision und die
+                Wahrung der ursprünglichen Merkmale gefragt sind. Ob es sich um eine kleine Renovierung oder ein umfassenderes
+                Projekt handelt, wir helfen dir dabei, deine Ideen in ein solides, sauberes und gut ausgeführtes Ergebnis umzusetzen.",
     "h.services"  : "Unsere Baudienstleistungen",
     "p.services"  : "",
     "ul.count"    : "",
-    "p.s-ending"  : ""
+    "p.s-ending"  : "",
 
+    "p.jobs"      : "",
 
+    "h.myself"    : "",
+    "p.myself"    : ""
 
 }

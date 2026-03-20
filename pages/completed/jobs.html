@@ -10,12 +10,15 @@
 </head>
 
 <body>
-    <header class="max-w-full h-24 flex justify-center-safe">
-        <div alt="nav" class="bg-stone-300 w-full h-full flex justify-center-safe">
-            <a href="/index.html">
-                <div alt="logo" class="size-40 mt-3.5"><img src="/pictures/svg/logo2.svg">
-                </div>
+    <header class="max-w-full h-24 flex">
+        <div alt="nav" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
+            <a href="/index.html" class="absolute left-1/2 -translate-x-1/2">
+                <div alt="logo" class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg"></div>
             </a>
+            <div class="absolute md:right-4/12 right-1/12 inset-y-0 flex content-center">
+                <button class="mx-2 hover:cursor-pointer" id="de">DE</button>
+                <button class="mx-2 hover:cursor-pointer" id="it">IT</button>
+            </div>
         </div>
     </header>
     <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
@@ -24,17 +27,18 @@
             <div class="m-auto flex flex-col items-center gap-2">
                 <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
                     class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden">Servizi</p>
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
             </div>
             <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                data-i18n="box.services">
                 Servizi
             </span>
         </a>
         <div class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen box-border px-4 my-5">
             <div class="text-black break-normal hyphens-auto text-justify lg:w-5xl mx-auto" lang="it">
-                <h1 class="text-4xl text-center mb-3">Lavori svolti</h1>
-                <p class="mb-5">
+                <h1 class="text-4xl text-center mb-3" data-i18n="box.jobs">Lavori svolti</h1>
+                <p class="mb-5" data-i18n="p.jobs">
                     Qui si può trovare una selezione di lavori già realizzati da Mastrobau: interventi concreti,
                     curati nei
                     dettagli e pensati per valorizzare ogni ambiente. Ogni progetto viene eseguito con attenzione alle
@@ -57,10 +61,12 @@
             <div class="m-auto flex flex-col items-center gap-2">
                 <img src="/pictures/svg/custom.person.fill.svg"
                     class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden">La mia persona</p>
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">La mia persona
+                </p>
             </div>
             <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400">
+                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                data-i18n="box.myself">
                 La mia persona
             </span>
         </a>
@@ -69,8 +75,8 @@
         <div alt="footer" class="bg-stone-300 w-full h-full">
             <div alt="unordered-list" class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
                 <ul class="my-5">
-                    <a href="/pages/legal/impressum.html">Informazioni legali</a> <br>
-                    <a href="/pages/legal/DSG.html">Sicurezza dei dati</a>
+                    <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a> <br>
+                    <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Sicurezza dei dati</a>
                 </ul>
             </div>
     </footer>

@@ -29,26 +29,28 @@ const images = [
 
 const gallery = document.getElementById("gallery");
 
-images.forEach(src=> {
-    const img = document.createElement("img");
-    img.src = src;
-    img.classList.add("w-full", "h-64", "object-cover", "rounded-lg", "shadow-lg", "transition-transform", "duration-500", "hover:scale-105");
-    gallery.appendChild(img);
-});
+if (gallery) {
+    images.forEach(src => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.classList.add("w-full", "h-64", "object-cover", "rounded-lg", "shadow-lg", "transition-transform", "duration-500", "hover:scale-105");
+        gallery.appendChild(img);
+    });
 
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
 
-gallery.addEventListener("click", (e) => {
-    if (e.target.tagName === "IMG") {
-        lightboxImg.src = e.target.src;
-        lightbox.classList.remove("hidden");
-    }
-});
+    gallery.addEventListener("click", (e) => {
+        if (e.target.tagName === "IMG") {
+            lightboxImg.src = e.target.src;
+            lightbox.classList.remove("hidden");
+        }
+    });
 
-lightbox.addEventListener("click", () => {
-    lightbox.classList.add("hidden");
-});
+    lightbox.addEventListener("click", () => {
+        lightbox.classList.add("hidden");
+    });
+}
 
 async function loadLanguage(lang) {
     const response = await fetch(`/json/${lang}.json`);
@@ -62,10 +64,16 @@ async function loadLanguage(lang) {
     });
 
     localStorage.setItem("language", lang);
-}
+};
 
-document.getElementById("it").addEventListener("click", () => loadLanguage("it"));
-document.getElementById("de").addEventListener("click", () => loadLanguage("de"));
+document.getElementById("it").addEventListener("click", () => {
+    loadLanguage("it");
+    console.log("test");
+});
+document.getElementById("de").addEventListener("click", () => {
+    loadLanguage("de");
+    console.log("test");
+});
 
 const savedLanguage = localStorage.getItem("language") || "de";
 loadLanguage(savedLanguage);
