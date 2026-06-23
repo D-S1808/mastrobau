@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de-CH">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mastrobau</title>
+    <title data-i18n="t.seo">Mastrobau Basel – Gipserarbeiten, Malerarbeiten & Renovationen</title>
+    <meta name="description"
+        content="Mastrobau in Basel bietet Gipserarbeiten, Malerarbeiten, Plattenlegen, Kundenmaurerarbeiten, Altbaurenovationen und Stucco Veneziano. Persönlich, sauber und zuverlässig.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mastrobau.ch/">
+    <link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/">
+    <link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/">
+    <link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mastrobau Basel – Gipserarbeiten, Malerarbeiten & Renovationen">
+    <meta property="og:description"
+        content="Gipserarbeiten, Malerarbeiten, Plattenlegen, Kundenmaurerarbeiten, Altbaurenovationen und Stucco Veneziano in Basel und Umgebung.">
+    <meta property="og:url" content="https://mastrobau.ch/">
+    <meta property="og:image" content="https://mastrobau.ch/pictures/jobs.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/src/output.css">
     <link rel="shortcut icon" href="/pictures/svg/favicon.svg" type="image/x-icon">
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     <header class="max-w-full h-24 flex">
-        <div alt="nav" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
+        <div aria-label="Navigazione principale" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
             <a href="/index.html" class="absolute left-1/2 -translate-x-1/2">
-                <div alt="logo" class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg"></div>
+                <div class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg" alt="Mastrobau Basel Logo"></div>
             </a>
             <div class="absolute md:right-4/12 right-1/12 inset-y-0 flex content-center">
                 <button class="mx-2 hover:cursor-pointer" id="de">DE</button>
                 <button class="mx-2 hover:cursor-pointer" id="it">IT</button>
             </div>
             <div class="absolute md:left-3/12 left-1/48 inset-y-0 flex content-center items-center">
-                <a href="tel:+41-76-765-50-34"><button class="mx-2 hover:cursor-pointer bg-[url(/pictures/svg/phone.svg)] bg-cover size-8"></button></a>
-                <a href="mailto:info@mastrobau.ch"><button class="hover:cursor-pointer bg-[url(/pictures/svg/envelope.svg)] bg-cover w-14 h-10"></button></a>
+                <a href="tel:+41-76-765-50-34"><button
+                        class="mx-2 hover:cursor-pointer bg-[url(/pictures/svg/phone.svg)] bg-cover size-8"></button></a>
+                <a href="mailto:info@mastrobau.ch"><button
+                        class="hover:cursor-pointer bg-[url(/pictures/svg/envelope.svg)] bg-cover w-14 h-10"></button></a>
             </div>
         </div>
     </header>
-    <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
-        <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
+    <div aria-label="Contenuto principale"
+        class="w-full max-w-xs md:max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 flex-1 content-center px-5 py-6 md:py-8 text-white">
+        <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
             href="/pages/services/services.html">
             <div class="m-auto flex flex-col items-center gap-2">
                 <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
-                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                    alt="Dienstleistungen von Mastrobau Basel"
+                    class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
                 <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
             </div>
             <span
@@ -39,11 +57,11 @@
                 Servizi
             </span>
         </a>
-        <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
+        <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
             href="/pages/completed/jobs.html">
             <div class="m-auto flex flex-col items-center gap-2">
-                <img src="/pictures/svg/customhouse.svg"
-                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <img src="/pictures/svg/customhouse.svg" alt="Ausgeführte Bauarbeiten und Renovationen in Basel"
+                    class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
                 <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori svolti</p>
             </div>
             <span
@@ -52,32 +70,76 @@
                 Lavori svolti
             </span>
         </a>
-        <a class="bg-[url(/pictures/AI_man.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
+        <a class="bg-[url(/pictures/AI_man.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
             href="/pages/myself/myself.html">
             <div class="m-auto flex flex-col items-center gap-2">
-                <img src="/pictures/svg/custom.person.fill.svg"
-                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">La mia persona
+                <img src="/pictures/svg/custom.person.fill.svg" alt="Über Mastrobau Basel"
+                    class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">Chi sono
                 </p>
             </div>
             <span
                 class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
                 data-i18n="box.myself">
-                La mia persona
+                Chi sono
             </span>
         </a>
     </div>
     <footer class="max-w-full h-22">
-        <div alt="footer" class="bg-stone-300 w-full h-full">
-            <div alt="unordered-list" class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
-                <ul class="my-5">
-                    <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a> <br>
-                    <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Sicurezza dei dati</a>
+        <div aria-label="Footer" class="bg-stone-300 w-full h-full">
+            <div class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
+                <ul class="my-2 flex flex-col items-center text-center">
+                    <li>
+                        <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a>
+                    </li>
+                    <li>
+                        <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Protezione dei dati</a>
+                    </li>
+                    <li>
+                        <p data-i18n="a.copyright">© 2026 Mastrobau. Tutti i diritti riservati.</p>
+                    </li>
                 </ul>
             </div>
         </div>
     </footer>
+    <section class="sr-only hidden" aria-labelledby="seo-home-title">
+        <h1 id="seo-home-title" data-i18n="t.seo">Mastrobau Basel – Gipserarbeiten, Malerarbeiten und Renovationen</h1>
+        <p>
+            Mastrobau ist Ihr Bauunternehmen in Basel für Gipserarbeiten, Malerarbeiten, Plattenlegen,
+            Kundenmaurerarbeiten, Altbaurenovationen und Stucco Veneziano. Wir arbeiten in Basel und Umgebung,
+            unter anderem in Basel-Stadt, Binningen, Allschwil, Muttenz, Pratteln und Riehen.
+        </p>
+    </section>
 </body>
 <script src="/js/scripts.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Mastrobau",
+  "url": "https://mastrobau.ch/",
+  "logo": "https://mastrobau.ch/pictures/svg/logo2.svg",
+  "image": "https://mastrobau.ch/pictures/jobs.png",
+  "telephone": "+41767655034",
+  "email": "info@mastrobau.ch",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bernerring 41",
+    "postalCode": "4054",
+    "addressLocality": "Basel",
+    "addressCountry": "CH"
+  },
+  "areaServed": [
+    "Basel",
+    "Basel-Stadt",
+    "Binningen",
+    "Allschwil",
+    "Muttenz",
+    "Pratteln",
+    "Riehen"
+  ],
+  "description": "Mastrobau in Basel bietet Gipserarbeiten, Malerarbeiten, Plattenlegen, Kundenmaurerarbeiten, Altbaurenovationen und Stucco Veneziano."
+}
+</script>
 
 </html>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://mastrobau.ch/?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/?lang=de" />
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/?lang=de" />
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/services/services.html?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/services/services.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/services/services.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/services/services.html?lang=de" />
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/services/services.html?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/services/services.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/services/services.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/services/services.html?lang=de" />
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/completed/jobs.html?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/completed/jobs.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/completed/jobs.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/completed/jobs.html?lang=de" />
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/completed/jobs.html?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/completed/jobs.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/completed/jobs.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/completed/jobs.html?lang=de" />
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/myself/myself.html?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/myself/myself.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/myself/myself.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/myself/myself.html?lang=de" />
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/myself/myself.html?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/myself/myself.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/myself/myself.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/myself/myself.html?lang=de" />
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/legal/impressum.html?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/legal/impressum.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/legal/impressum.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/legal/impressum.html?lang=de" />
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/legal/impressum.html?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/legal/impressum.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/legal/impressum.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/legal/impressum.html?lang=de" />
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/legal/DSG.html?lang=de</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/legal/DSG.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/legal/DSG.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/legal/DSG.html?lang=de" />
+        <priority>0.3</priority>
+    </url>
+    <url>
+        <loc>https://mastrobau.ch/pages/legal/DSG.html?lang=it</loc>
+        <xhtml:link rel="alternate" hreflang="de-CH" href="https://mastrobau.ch/pages/legal/DSG.html?lang=de" />
+        <xhtml:link rel="alternate" hreflang="it-CH" href="https://mastrobau.ch/pages/legal/DSG.html?lang=it" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://mastrobau.ch/pages/legal/DSG.html?lang=de" />
+        <priority>0.3</priority>
+    </url>
+</urlset>

@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mastrobau</title>
+    <title>Chi siamo | Mastrobau Basilea</title>
+    <meta name="description"
+        content="Conosci Giovanni Arcieri, titolare di Mastrobau a Basilea, e il suo approccio concreto, preciso e orientato alla qualità nei lavori edili.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mastrobau.ch/pages/myself/myself.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chi siamo | Mastrobau Basilea">
+    <meta property="og:description"
+        content="Giovanni Arcieri segue personalmente ogni intervento Mastrobau con attenzione, chiarezza e cura dei dettagli.">
+    <meta property="og:url" content="https://mastrobau.ch/pages/myself/myself.html">
+    <meta property="og:image" content="https://mastrobau.ch/pictures/Gio_arcieri.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/src/output.css">
-    <link rel="shortcut icon" href="./pictures/svg/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/pictures/svg/favicon.svg" type="image/x-icon">
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     <header class="max-w-full h-24 flex">
-        <div alt="nav" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
+        <div aria-label="Navigazione principale" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
             <a href="/index.html" class="absolute left-1/2 -translate-x-1/2">
-                <div alt="logo" class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg"></div>
+                <div class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg" alt="Mastrobau Basel Logo"></div>
             </a>
             <div class="absolute md:right-4/12 right-1/12 inset-y-0 flex content-center">
                 <button class="mx-2 hover:cursor-pointer" id="de">DE</button>
@@ -25,44 +36,46 @@
             </div>
         </div>
     </header>
-    <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
-        <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
-            href="/pages/services/services.html">
-            <div class="m-auto flex flex-col items-center gap-2">
-                <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg"
-                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
-            </div>
-            <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
-                data-i18n="box.services">
-                Servizi
-            </span>
-        </a>
-        <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
-            href="/pages/completed/jobs.html">
-            <div class="m-auto flex flex-col items-center gap-2">
-                <img src="/pictures/svg/customhouse.svg"
-                    class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori svolti</p>
-            </div>
-            <span
-                class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
-                data-i18n="box.jobs">
-                Lavori svolti
-            </span>
-        </a>
-    </div>
-    <div class="flex flex-col items-center max-w-full h-full m-3 break-normal hyphens-auto text-justify" lang="it">
-        <div class="m-2 md:w-3xl grid md:grid-cols-2 items-start gap-6">
-            <img src="/pictures/Gio_arcieri.jpeg" alt="services" class="w-full h-auto">
+    <div class="flex flex-col flex-1 items-center max-w-full h-full m-3 break-normal hyphens-auto text-justify" lang="it">
+        <div aria-label="Pagine correlate"
+            class="w-full max-w-xs mx-auto grid grid-cols-1 gap-4 mt-8 mb-8 px-2 text-white md:hidden">
+            <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
+                href="/pages/services/services.html">
+                <div class="m-auto flex flex-col items-center gap-2">
+                    <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg" alt="Servizi Mastrobau"
+                        class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                    <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
+                </div>
+                <span
+                    class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                    data-i18n="box.services">
+                    Servizi
+                </span>
+            </a>
+            <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
+                href="/pages/completed/jobs.html">
+                <div class="m-auto flex flex-col items-center gap-2">
+                    <img src="/pictures/svg/customhouse.svg" alt="Lavori svolti da Mastrobau"
+                        class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                    <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori svolti</p>
+                </div>
+                <span
+                    class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                    data-i18n="box.jobs">
+                    Lavori svolti
+                </span>
+            </a>
+        </div>
+        <div class="m-2 md:w-2xl grid md:grid-cols-2 items-start gap-5">
+            <img src="/pictures/Gio_arcieri.jpeg" alt="Giovanni Arcieri, titolare di Mastrobau" class="w-full h-auto"
+                fetchpriority="high" decoding="async">
             <div class="w-full">
-                <h1 class="text-2xl text-center my-3" data-i18n="h.myself">L'uomo dietro l'opera</h1>
+                <h1 class="text-2xl text-center my-3" data-i18n="h.myself">La persona dietro il lavoro</h1>
                 <p class="" data-i18n="p.myself">Giovanni è il titolare di Mastrobau e lavora ogni giorno con un
                     approccio concreto, preciso e orientato alla qualità. Nel tempo ha costruito un’esperienza solida
                     nel settore edile, affinando competenze tecniche e cura dei dettagli, soprattutto nelle finiture e
                     nei lavori che richiedono attenzione e sensibilità.
-                    Per Giovanni questo mestiere non è solo “fare un lavoro”, ma trasformare spazi e idee in risultati
+                    Per Giovanni questo mestiere non significa solo “fare un lavoro”, ma trasformare spazi e idee in risultati
                     reali: ordinati, ben eseguiti e duraturi. La sua passione nasce dalla soddisfazione di vedere un
                     progetto prendere forma passo dopo passo e dal rapporto diretto con il cliente, basato su ascolto,
                     chiarezza e responsabilità. Ogni intervento viene seguito personalmente, con l’obiettivo di offrire
@@ -70,15 +83,52 @@
                 </p>
             </div>
         </div>
+        <div aria-label="Pagine correlate"
+            class="hidden md:grid w-full max-w-2xl mx-auto grid-cols-2 gap-4 mt-8 mb-8 px-0 text-white">
+            <a class="bg-[url(/pictures/services.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
+                href="/pages/services/services.html">
+                <div class="m-auto flex flex-col items-center gap-2">
+                    <img src="/pictures/svg/custom.wrench.and.screwdriver.fill.svg" alt="Servizi Mastrobau"
+                        class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                    <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.services">Servizi</p>
+                </div>
+                <span
+                    class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                    data-i18n="box.services">
+                    Servizi
+                </span>
+            </a>
+            <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
+                href="/pages/completed/jobs.html">
+                <div class="m-auto flex flex-col items-center gap-2">
+                    <img src="/pictures/svg/customhouse.svg" alt="Lavori svolti da Mastrobau"
+                        class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                    <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori svolti</p>
+                </div>
+                <span
+                    class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
+                    data-i18n="box.jobs">
+                    Lavori svolti
+                </span>
+            </a>
+        </div>
     </div>
-    <footer class="max-w-full h-24">
-        <div alt="footer" class="bg-stone-300 w-full h-full">
-            <div alt="unordered-list" class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
-                <ul class="my-5">
-                    <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a> <br>
-                    <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Sicurezza dei dati</a>
+    <footer class="max-w-full h-22">
+        <div aria-label="Footer" class="bg-stone-300 w-full h-full">
+            <div class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
+                <ul class="my-2 flex flex-col items-center text-center">
+                    <li>
+                        <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a>
+                    </li>
+                    <li>
+                        <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Protezione dei dati</a>
+                    </li>
+                    <li>
+                        <p data-i18n="a.copyright">© 2026 Mastrobau. Tutti i diritti riservati.</p>
+                    </li>
                 </ul>
             </div>
+        </div>
     </footer>
 </body>
 <script src="/js/scripts.js"></script>

@@ -4,16 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mastrobau</title>
+    <title>Servizi edili a Basilea | Mastrobau</title>
+    <meta name="description"
+        content="Scopri i servizi di Mastrobau a Basilea: lavori da gessatore, pittura, muratura, posa di piastrelle, restauri e Stucco Veneziano.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mastrobau.ch/pages/services/services.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Servizi edili a Basilea | Mastrobau">
+    <meta property="og:description"
+        content="Lavori da gessatore, pittura, muratura, posa di piastrelle, restauri e Stucco Veneziano a Basilea.">
+    <meta property="og:url" content="https://mastrobau.ch/pages/services/services.html">
+    <meta property="og:image" content="https://mastrobau.ch/pictures/plan.png">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="/src/output.css">
     <link rel="shortcut icon" href="/pictures/svg/favicon.svg" type="image/x-icon">
 </head>
 
-<body>
+<body class="min-h-screen flex flex-col">
     <header class="max-w-full h-24 flex">
-        <div alt="nav" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
+        <div aria-label="Navigazione principale" class="bg-stone-300 relative w-full h-full flex justify-center-safe">
             <a href="/index.html" class="absolute left-1/2 -translate-x-1/2">
-                <div alt="logo" class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg"></div>
+                <div class="w-40 mt-3.5"><img src="/pictures/svg/logo2.svg" alt="Mastrobau Basel Logo"></div>
             </a>
             <div class="absolute md:right-4/12 right-1/12 inset-y-0 flex content-center">
                 <button class="mx-2 hover:cursor-pointer" id="de">DE</button>
@@ -25,41 +36,43 @@
             </div>
         </div>
     </header>
-    <div class="flex flex-col items-center max-w-full h-full m-3 break-normal hyphens-auto text-justify" lang="it">
-        <div class="m-2 w-sm md:w-xl">
-            <img src="/pictures/plan.png" alt="services" class="mb-2">
-            <h1 class="text-4xl text-center m-3" data-i18n="h.offers">La nostra offerta</h1>
+    <div class="flex flex-col flex-1 items-center max-w-full h-full m-3 break-normal hyphens-auto text-justify" lang="it">
+        <div class="m-2 w-full max-w-2xl">
+            <img src="/pictures/plan.png" alt="Servizi edili e progetto di ristrutturazione Mastrobau" class="mb-4 w-full"
+                fetchpriority="high" decoding="async">
+            <h1 class="text-4xl text-center m-5" data-i18n="h.offers">La nostra offerta</h1>
             <p data-i18n="p.offers">Con Mastrobau hai un unico referente per diversi interventi in ambito edile, con
                 un’attenzione particolare alla qualità delle finiture e ai dettagli. Ci occupiamo sia di lavori
-                strutturali che di rifinitura, passando da interventi pratici e funzionali fino a soluzioni estetiche
+                strutturali sia di finitura, passando da interventi pratici e funzionali a soluzioni estetiche
                 più curate e decorative.
-                Lavoriamo su spazi nuovi e su immobili già esistenti, anche quando serve maggiore precisione e rispetto
+                Lavoriamo su spazi nuovi e su immobili già esistenti, anche quando servono maggiore precisione e rispetto
                 delle caratteristiche originali. Che si tratti di una piccola sistemazione o di un progetto più
                 completo, ti aiutiamo a trasformare le tue idee in un risultato solido, pulito e ben fatto.</p>
         </div>
-        <div class="m-2 w-sm md:w-xl">
-            <h2 class="text-2xl text-center mb-3" data-i18n="h.services">I nostri servizi</h2>
-            <p class="text-center" data-i18n="p.services">Alcuni dei servizi da noi offerti sono elencati qui sotto:</p>
+        <div class="m-2 w-full max-w-2xl">
+            <h2 class="text-2xl text-center mb-4" data-i18n="h.services">I nostri servizi</h2>
+            <p class="text-center" data-i18n="p.services">Alcuni dei servizi che offriamo sono elencati qui sotto:</p>
             <div>
-                <ul class="grid grid-cols-2 mt-3 list-disc ml-4 md:ml-24">
-                    <li data-i18n="ul.0">Lavori da gessino</li>
-                    <li data-i18n="ul.1">Muratura per clienti</li>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-2 mt-5 list-disc ml-8 md:ml-24">
+                    <li data-i18n="ul.0">Lavori da gessatore</li>
+                    <li data-i18n="ul.1">Lavori di muratura</li>
                     <li data-i18n="ul.2">Lavori di pittura</li>
-                    <li data-i18n="ul.3">Restauri su edifici d'epoca</li>
-                    <li data-i18n="ul.4">Posa piastrelle</li>
+                    <li data-i18n="ul.3">Restauri di edifici d'epoca</li>
+                    <li data-i18n="ul.4">Posa di piastrelle</li>
                     <li>Stucco Veneziano</li>
                 </ul>
-                <p class="mt-5" data-i18n="p.s-ending">Oltre ai servizi indicati, Mastrobau offre anche ulteriori
+                <p class="mt-6" data-i18n="p.s-ending">Oltre ai servizi indicati, Mastrobau offre anche ulteriori
                     interventi su richiesta, in base alle esigenze del cliente e al tipo di progetto. Contattaci per una valutazione:
                     definiremo con chiarezza fattibilità, modalità operative e un’offerta personalizzata.
                 </p>
             </div>
-            <div alt="content" class="max-w-64 mx-auto justify-center-safe flex flex-col gap-2 mt-7 mb-7 text-white">
-                <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
+            <div aria-label="Pagine correlate"
+                class="w-full max-w-xs md:max-w-2xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 mt-8 mb-8 px-2 md:px-0 text-white">
+                <a class="bg-[url(/pictures/jobs.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
                     href="/pages/completed/jobs.html">
                     <div class="m-auto flex flex-col items-center gap-2">
-                        <img src="/pictures/svg/customhouse.svg"
-                            class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                        <img src="/pictures/svg/customhouse.svg" alt="Lavori svolti da Mastrobau"
+                            class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
                         <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.jobs">Lavori
                             svolti</p>
                     </div>
@@ -68,29 +81,36 @@
                         Lavori svolti
                     </span>
                 </a>
-                <a class="bg-[url(/pictures/AI_man.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full h-64 flex justify-center-safe items-center transition duration-400"
+                <a class="bg-[url(/pictures/AI_man.png)] bg-cover bg-center bg-no-repeat group relative opacity-80 hover:opacity-100 w-full aspect-square flex justify-center-safe items-center transition duration-400"
                     href="/pages/myself/myself.html">
                     <div class="m-auto flex flex-col items-center gap-2">
-                        <img src="/pictures/svg/custom.person.fill.svg"
-                            class="size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
-                        <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">La mia
-                            persona</p>
+                        <img src="/pictures/svg/custom.person.fill.svg" alt="Informazioni su Mastrobau"
+                            class="size-20 md:size-25 opacity-100 lg:group-hover:opacity-0 transition duration-400">
+                        <p class="text-sm font-medium tracking-wide text-white lg:hidden" data-i18n="box.myself">Chi
+                            sono</p>
                     </div>
                     <span
                         class="hidden lg:flex absolute inset-0 items-center justify-center text-lg font-semibold text-white opacity-0 group-hover:opacity-100 transition duration-400"
                         data-i18n="box.myself">
-                        La mia persona
+                        Chi sono
                     </span>
                 </a>
             </div>
         </div>
     </div>
-    <footer class="max-w-full h-24">
-        <div alt="footer" class="bg-stone-300 w-full h-full">
-            <div alt="unordered-list" class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
-                <ul class="my-5">
-                    <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a> <br>
-                    <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Sicurezza dei dati</a>
+    <footer class="max-w-full h-22">
+        <div aria-label="Footer" class="bg-stone-300 w-full h-full">
+            <div class="max-w-full max-h-full grid grid-rows-2 justify-center align-middle">
+                <ul class="my-2 flex flex-col items-center text-center">
+                    <li>
+                        <a href="/pages/legal/impressum.html" data-i18n="a.legal">Informazioni legali</a>
+                    </li>
+                    <li>
+                        <a href="/pages/legal/DSG.html" data-i18n="a.dsg">Protezione dei dati</a>
+                    </li>
+                    <li>
+                        <p data-i18n="a.copyright">© 2026 Mastrobau. Tutti i diritti riservati.</p>
+                    </li>
                 </ul>
             </div>
         </div>
